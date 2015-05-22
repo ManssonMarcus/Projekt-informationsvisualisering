@@ -1,8 +1,42 @@
 <div ng-include="'components/navbar/navbar.html'"></div>
-<h2>{{title}}</h2>
 
-<ul>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js">
+</script>
+
+<h2>{{title}}</h2>
+<div id="test2">{{title}}</div>
+<ul id ="test">
 	<li ng-repeat="item in items">
 		{{item}}
 	</li>
 </ul>
+
+<script>
+console.log($('#test2').text());
+</script>
+
+<script>
+	//var element = document.getElementById("numTry");
+	//console.log(element);
+
+	var elem = document.getElementById('test')
+ 
+	var list = elem.getElementsByClassName('ng-binding ng-scope');
+	
+	var listItem = $( ".ng-binding ng-scope" );
+
+	//console.log($( "li" ).value( listItem ));
+	//console.log(list);
+	//console.log(list[0].innerText);
+	//alert(list[0].innerHTML)
+
+
+</script>
+
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. In at mollis diam, id ullamcorper odio. Fusce tempor sit amet magna ut laoreet. Fusce suscipit neque enim, vel varius dui tincidunt in. Ut ornare lorem tortor, vitae vestibulum sem porttitor in. Praesent auctor tristique justo, non convallis orci. Sed neque diam, eleifend eu risus nec, sodales vehicula est. Nullam ac odio nec nisi dignissim tincidunt id eget elit. Ut laoreet pharetra erat, et egestas sem. Sed in nulla et nisl consectetur imperdiet. Aliquam quis dui ut mi convallis pretium. Vestibulum at malesuada justo, et iaculis nisi. Donec pretium quis neque eget condimentum.
+
+Aliquam facilisis elit ac posuere elementum. Etiam non nisl mauris. Nam lacinia, ex in eleifend tincidunt, ligula libero ultrices nulla, id imperdiet lacus libero id nisl. Integer semper aliquam mi, id viverra orci tempor sed. Vestibulum ut molestie felis. Vivamus gravida sem vitae diam bibendum, nec pharetra nunc hendrerit. Aliquam sollicitudin tellus finibus eros vulputate, vitae semper lacus fringilla. Quisque viverra turpis in ipsum aliquet, et sodales magna fermentum. Nunc vitae maximus lectus, nec ultricies dolor. Maecenas placerat suscipit leo, vitae rhoncus quam. Fusce quis ipsum non magna sagittis gravida eget eu lorem. In nec tortor turpis. Vivamus hendrerit, ipsum eget vehicula blandit, enim nibh fermentum diam, ut eleifend est sapien eu nibh. Fusce nunc nulla, mattis quis dignissim eu, condimentum eu nisi. Aenean vitae purus finibus, maximus ante non, auctor orci.
+
+Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi vehicula sapien sit amet placerat commodo. Curabitur aliquet urna lectus, at tempus diam convallis sit amet. Vestibulum et quam sit amet leo molestie bibendum. Phasellus lacinia tristique arcu ac accumsan. Proin ac sem feugiat, egestas odio a, ullamcorper leo. Nullam mattis eros sed est viverra, at fringilla mauris hendrerit. Mauris ante sem, tempor eget porttitor vehicula, vestibulum ut ex. Etiam maximus condimentum enim. Nullam ac lacus placerat, finibus elit non, iaculis urna. Proin a tincidunt erat. Suspendisse gravida mi faucibus sem ornare, quis scelerisque elit hendrerit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla eget auctor eros. In lacinia ipsum mi, et hendrerit augue vulputate ac.
+</p>

@@ -8,5 +8,5 @@ module.exports = {
     uri: 'mongodb://localhost/yoapp-dev'
   },
 
-  seedDB: true
+  seedDB: false
 };

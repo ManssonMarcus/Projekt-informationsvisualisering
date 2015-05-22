@@ -9,8 +9,12 @@ angular.module('yoAppApp')
 
     },
     {
-      'title': 'Hello',
+      'title': 'Info',
       'link': '/hello'
+    },
+    {
+      'title': 'Map',
+      'link': '/map'
     }
     ];
 

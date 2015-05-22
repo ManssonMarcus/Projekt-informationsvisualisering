@@ -6,7 +6,8 @@ angular.module('yoAppApp', [
   'ngSanitize',
   'btford.socket-io',
   'ui.router',
-  'ui.bootstrap'
+  'ui.bootstrap',
+  'uiGmapgoogle-maps'
 ])
   .config(function ($stateProvider, $urlRouterProvider, $locationProvider, $httpProvider) {
     $urlRouterProvider
@@ -18,7 +19,8 @@ angular.module('yoAppApp', [
         templateUrl: 'app/templates/hello.html',
         controller: function($scope) {
           $scope.title = "Hello World";
-          $scope.items = ['Mud','Rockets','Iron','Rootbeeds'];
+          $scope.items = [5,6,7,8];
+          
         }
 
       })
